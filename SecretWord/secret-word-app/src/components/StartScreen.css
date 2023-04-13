@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+
+:root{
+  font-family: 'Merriweather', serif;
+ --appleRed:#fc3c44;
+ --appleLogo:#f94c57;
+ --appleColor:#c2cad7;
+ --appleAddColors:#5856d5;
+ --appleIcons:#A6D2FF;
+ --applePalette:#929292;
+ --appleFeed:#000000;
+}
+
+
+.start h1{
+    font-size:  3.5em;
+}
+
+.start p{
+    font-size:  2em;
+    color: #A6D2FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* midia scream */
+
+
+@media (max-width:991px) {
+    html{
+        font-size: 55%;
+}
+
+}
+
+@media (max-width:768px) {
+   .start h1{
+    font-size:  3.5em;
+}
+
+}
+
+@media (max-width:450px) {
+
+   .start h1{
+    font-size:  3.5em;
+}
+    .start p{
+    font-size:  2.5em;
+}
+
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+
+:root{
+  font-family: 'Merriweather', serif;
+ --appleRed:#fc3c44;
+ --appleLogo:#f94c57;
+ --appleColor:#c2cad7;
+ --appleAddColors:#5856d5;
+ --appleIcons:#A6D2FF;
+ --applePalette:#929292;
+ --appleFeed:#000000;
+}
+
+html, body{
+  height: 100%;
+}
+
+body{
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+button{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: var(--appleIcons);
+    color: #fff;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+button:hover{
+ background-color: var(--appleColor);
+}
