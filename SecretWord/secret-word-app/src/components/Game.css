@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+
+:root{
+  font-family: 'Merriweather', serif;
+ --appleRed:#fc3c44;
+ --appleLogo:#f94c57;
+ --appleColor:#c2cad7;
+ --appleAddColors:#5856d5;
+ --appleIcons:#A6D2FF;
+ --applePalette:#929292;
+ --appleFeed:#000000;
+}
+
+
+.game h1 {
+  font-size: 2.5em;
+}
+
+.points span {
+  font-weight: bold;
+}
+
+.tip span {
+  color: var(--appleIcons);
+}
+
+.wordContainer {
+  margin: 1.5em;
+  padding: 1.5em;
+  border: 20px solid var(--appleIcons);
+  display: flex;
+}
+
+.letter,
+.blankSquare {
+  font-size: 70px;
+  line-height: 1.5;
+  border: 3px solid var(--appleColor);
+  height: 100px;
+  width: 100px;
+  text-transform: uppercase;
+  background-color: #fff;
+  color:  var(--appleFeed);
+  font-weight: bold;
+}
+
+.letterContainer p {
+  margin-bottom: 1.2em;
+}
+
+.letterContainer form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.letterContainer input {
+  height: 50px;
+  width: 50px;
+  font-size: 2em;
+  text-align: center;
+  margin-right: 1em;
+}
