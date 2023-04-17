@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+
+:root{
+  font-family: 'Merriweather', serif;
+ --appleRed:#fc3c44;
+ --appleLogo:#f94c57;
+ --appleColor:#c2cad7;
+ --appleAddColors:#5856d5;
+ --appleIcons:#A6D2FF;
+ --applePalette:#929292;
+ --appleFeed:#000000;
+}
+
+h2 span{
+    color:var(--appleIcons);
+    font-size: 1.5em;
+}
